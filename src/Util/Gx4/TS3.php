@@ -1,6 +1,6 @@
 <?php
 
-namespace GX4\Util;
+namespace GX4\Util\Gx4;
 
 use Aws\S3\Exception\S3Exception;
 use Aws\S3\S3Client;

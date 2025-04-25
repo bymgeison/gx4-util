@@ -1,6 +1,6 @@
 <?php
 
-namespace TGX4\Util\TGX4;
+namespace GX4\Util\Gx4;
 
 use Exception;
 use InvalidArgumentException;

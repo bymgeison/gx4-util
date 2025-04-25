@@ -1,6 +1,6 @@
 <?php
 
-namespace GX4\Util;
+namespace GX4\Util\Gx4;
 
 use Adianti\Control\TAction;
 use Adianti\Widget\Base\TScript;

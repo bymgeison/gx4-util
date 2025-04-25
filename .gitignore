@@ -1,2 +1,48 @@
-vendor/*
-index.php
+# Dependências do Composer
+/vendor/
+
+# Arquivos de configuração locais
+/.env
+.env.*
+/*.local.php
+
+# Diretórios comuns de cache/log/temp
+/cache/
+/logs/
+/tmp/
+/storage/
+/*.log
+
+# IDEs e editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Composer artefatos
+composer.lock
+
+# Arquivos do PHPUnit
+.phpunit.result.cache
+
+# Cobertura de testes
+/coverage/
+
+# Arquivos de build
+/build/
+/dist/
+
+# Arquivos do servidor local
+/public/*.log
+/public/*.cache
+/public/*.php~
+
+# Arquivos gerados temporariamente
+*.bak
+*.tmp
+*.swp
+*.orig

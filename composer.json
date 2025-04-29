@@ -11,7 +11,9 @@
     ],
     "autoload":{
         "psr-4": {
-            "GX4\\Util\\Gx4\\": "src/Util/Gx4/"
+            "GX4\\Util\\": "src/Util/Gx4/",
+            "GX4\\Whoops\\": "src/Whoops/",
+            "GX4\\Adianti\\Base": "src/Adianti/base/"
         }
     },
     "require": {

@@ -1,6 +1,6 @@
 <?php
 
-namespace GX4\Trait;
+namespace GX4\Adianti\Base;
 
 use stdClass;
 

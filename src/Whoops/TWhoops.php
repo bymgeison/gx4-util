@@ -1,18 +1,18 @@
 <?php
 
-namespace GX4\Util;
+namespace GX4\Whoops;
 
 use Whoops\Handler\PrettyPageHandler;
 use Whoops\Run;
 
-class TWoops
+class TWhoops
 {
-    private bool $debug;
+    private bool $debug = false; // Inicialize aqui com um valor padrão (false)
 
     public function __construct()
     {
         $this->loadIni();
-        
+
         if ($this->debug) {
             $this->registerWhoops();
         }

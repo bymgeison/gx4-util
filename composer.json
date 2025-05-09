@@ -11,9 +11,17 @@
     ],
     "autoload": {
         "psr-4": {
+            "GX4\\Adianti\\Base\\": "src/Adianti/base/",
+            "GX4\\Adianti\\Control\\": "src/Adianti/control/",
+			"GX4\\Adianti\\Database\\": "src/Adianti/database/",
+            "GX4\\Exception\\": "src/Exception/",
+            "GX4\\Jasper\\": "src/Jasper/",
+            "GX4\\NFe\\": "src/NFe/",
+            "GX4\\S3\\": "src/S3/",
+            "GX4\\Sweet\\": "src/Sweet/",
             "GX4\\Util\\": "src/Util/",
-            "GX4\\Whoops\\": "src/Whoops/",
-            "GX4\\Adianti\\Base\\": "src/Adianti/base/"
+            "GX4\\Whoops\\": "src/Whoops/"
+
         }
     },
     "autoload-dev": {

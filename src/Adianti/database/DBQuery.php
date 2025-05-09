@@ -1,6 +1,6 @@
 <?php
 
-namespace GX4\Database;
+namespace GX4\Adianti\Database;
 
 use GX4\Database\TRecord;
 

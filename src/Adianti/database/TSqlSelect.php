@@ -1,6 +1,6 @@
 <?php
 
-namespace GX4\Database;
+namespace GX4\Adianti\Database;
 
 class TSqlSelect extends \Adianti\Database\TSqlSelect
 {

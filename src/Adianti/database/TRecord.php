@@ -1,5 +1,5 @@
 <?php
-namespace GX4\Database;
+namespace GX4\Adianti\Database;
 
 /*
 * Classe base TRecord estendida

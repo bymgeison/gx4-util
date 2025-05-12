@@ -12,7 +12,7 @@ trait TGx4AdiantiFormTrait
 {
     public function show()
     {
-          // check if the datagrid is already loaded
+        // check if the datagrid is already loaded
         if (!$this->loaded AND (!isset($_GET['method']) OR !(in_array($_GET['method'],  $this->showMethods))) )
         {
             if (func_num_args() > 0)

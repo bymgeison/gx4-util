@@ -34,4 +34,9 @@ class TPage extends \Adianti\Control\TPage
      * @var string
      */
     protected static $database = CONEXAO;
+
+	public static function required()
+    {
+        return new TLabel('*', 'red');
+    }
 }

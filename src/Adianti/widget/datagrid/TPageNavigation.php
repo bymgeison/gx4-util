@@ -1,5 +1,5 @@
 <?php
-namespace GX4\Widget\Datagrid;
+namespace GX4\Adianti\Widget\Datagrid;
 
 use Adianti\Core\AdiantiCoreTranslator;
 use Adianti\Widget\Base\TElement;

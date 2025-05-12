@@ -149,7 +149,6 @@ class TGx4
      *
      * @param string $valor
      * @return string
-     * @throws Exception
      */
     public static function formataDocumento(string $valor): string
     {
@@ -163,7 +162,7 @@ class TGx4
             return preg_replace('/(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})/', '$1.$2.$3/$4-$5', $numero);
         }
 
-        throw new Exception("Documento inválido para formatação.");
+        return $numero; // Retorna o número sem formatação se não for CPF ou CNPJ
     }
 
     /**

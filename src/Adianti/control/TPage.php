@@ -2,6 +2,7 @@
 namespace GX4\Adianti\Control;
 
 use Adianti\Registry\TSession;
+use Adianti\Widget\Form\TLabel;
 
 /**
  * Define a constante CONEXAO caso ainda não esteja definida.

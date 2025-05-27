@@ -8,7 +8,7 @@ use InvalidArgumentException;
 
 class TGx4
 {
-    // Constantes para os dias da semana (agora o domingo é 0)
+    // Constantes para os dias da semana (agora o domingo é 0) teste 123
     const DOMINGO = 0;
     const SEGUNDA = 1;
     const TERCA   = 2;
